@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie|Great+Vibes|Lobster|Pathway+Gothic+One|Yanone+Kaffeesatz');
+.wrapper{
+    height: 960px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-image:url('https://cdn.pixabay.com/photo/2016/03/26/13/09/organic-1280537_960_720.jpg');
+    background-size: cover;
+}
+.header{
+    height: 100px;
+    grid-column: 2;
+    margin: 25% 0 0 0;
+}
+.header h1{
+    font-family: 'Lobster', cursive;
+    color: #58D68D  ;
+    font-size: 40pt;
+}
+.header span{
+    color: #F5B041  ;
+}
+.header h4{
+    font-family: 'Cookie', cursive;
+    color: white;
+    font-size: 20pt;
+}
+.header button{
+    padding: 0.5em 1em;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+    font-size: 15pt;
+    background: #58D68D;
+}
+.header button:hover{
+    background: #F5B041 ;
+    color: white;
+}
